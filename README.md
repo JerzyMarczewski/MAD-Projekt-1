@@ -1,3 +1,4 @@
 # MAD-Projekt-1
-- a
-- b
+- okroić dane
+- zrobić tabelke
+- test metod w pythonie
