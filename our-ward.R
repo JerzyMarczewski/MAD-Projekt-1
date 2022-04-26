@@ -31,6 +31,7 @@ auta
 
 data$nazwa <- c("budynki i budowle", "maszyny urządzenia techniczne i narzędzia", "środki transportu", "przemysł", "górnictwo i wydobywanie", "przetwórstwo przemysłowe", "wytwarzanie i zaopatrywanie w energię elektryczną gaz parę wodną i gorącą wodę","dostawa wody gospodarowanie ściekami i odpadami rekultywacja","budownictwo","handel naprawa pojazdów samochodowych","transport i gospodarka magazynowa","obsługa rynku nieruchomości")
 #data$nazwa <- rownames(data)
+rownames(data) <- c("budynki i budowle", "maszyny urządzenia techniczne i narzędzia", "środki transportu", "przemysł", "górnictwo i wydobywanie", "przetwórstwo przemysłowe", "wytwarzanie i zaopatrywanie w energię elektryczną gaz parę wodną i gorącą wodę","dostawa wody gospodarowanie ściekami i odpadami rekultywacja","budownictwo","handel naprawa pojazdów samochodowych","transport i gospodarka magazynowa","obsługa rynku nieruchomości")
 data$rok_2010_norm <- scale(sqrt(data$rok_2010))
 data$rok_2011_norm <- scale(sqrt(data$rok_2011))
 data$rok_2012_norm <- scale(sqrt(data$rok_2012))
