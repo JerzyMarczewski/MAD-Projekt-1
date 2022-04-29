@@ -7,11 +7,15 @@ library(e1071)
 library(RCurl)
 library(kohonen)
 
+sekwencja <- seq(1, 298, 2)
+dim(dt)
+
 # pobieranie danych
 cars_gh <- getURL("https://raw.githubusercontent.com/JerzyMarczewski/MAD-Projekt-1/main/cars_multi.csv")
 dt <- read.csv(text = cars_gh, header = T, sep = ',', dec = '.')
 
-set.seed(100)
+dt <- dt[sekwencja,]
+dt
 
 # usuwamy puste wiersze 
 dt <- na.omit(dt)
@@ -44,9 +48,12 @@ fviz_nbclust(dt, kmeans, method = "wss")
 windows()
 fviz_nbclust(dt, kmeans, method = "silhouette")
 
+
+clusters <- 3
+
 # k-srednich
-options(ggrepel.max.overlaps = 0)
-km <- kmeans(dt, centers = 2)
+km <- kmeans(dt, centers = clusters)
+windows()
 fviz_cluster(km, data = dt, repel = T)
 
 
@@ -55,29 +62,28 @@ fviz_cluster(km, data = dt, repel = T)
 odleglosci <- dist(dt)
 grupy <- agnes(odleglosci, method = "ward")
 windows()
-fviz_dend(grupy, k = 4, rect = TRUE, main = "Metoda Ward")
+fviz_dend(grupy, k = clusters, rect = TRUE, main = "Metoda Ward")
 
 # metoda complete
 grupy_complete <- agnes(odleglosci, method = "complete")
-fviz_dend(grupy_complete, k = 4, rect = TRUE, main = "Metoda complete")
+fviz_dend(grupy_complete, k = clusters, rect = TRUE, main = "Metoda complete")
 
 # metoda single
 grupy_single <- agnes(odleglosci, method = "single")
-fviz_dend(grupy_single, k = 4, rect = TRUE, main = "Metoda single")
+fviz_dend(grupy_single, k = clusters, rect = TRUE, main = "Metoda single")
 
 # metoda average
 grupy_average <- agnes(odleglosci, method = "average")
-fviz_dend(grupy_average, k = 4, rect = TRUE, main = "Metoda average")
+fviz_dend(grupy_average, k = clusters, rect = TRUE, main = "Metoda average")
 
 
 ################################################################################
 # metoda Self-organising maps
 cars_SOM <- as.matrix(dt)
-cars_grid <- somgrid(xdim = 6, ydim = 6, topo = "hexagonal")
-set.seed(100)
+cars_grid <- somgrid(xdim = 4, ydim = 4, topo = "hexagonal")
 cars_SOM_model <- som(cars_SOM, grid = cars_grid)
 
-
+windows()
 # Plot our results
 # Plot type 1: counts
 plot(cars_SOM_model, type = "counts")
