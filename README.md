@@ -4,3 +4,12 @@
 - okroić dane
 - zrobić tabelke
 - test metod w pythonie
+
+|                        | mpg |
+|------------------------||
+| srednia                ||
+| mediana                | |
+| min                    | |
+| max                    | |
+| odchylenie standardowe ||
+| skośność               ||
