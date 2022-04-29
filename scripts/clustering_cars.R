@@ -1,6 +1,10 @@
 install.packages("e1071")
 install.packages("factoextra")
 install.packages("cluster")
+install.packages("tidyr")
+install.packages("ggplot2")
+library(tidyr)
+library(ggplot2)
 library(factoextra)
 library(cluster)
 library(e1071) 
@@ -107,3 +111,44 @@ plot(cars_SOM_model, type = "changes")
 
 # Plot type 5: neighbour distance
 plot(cars_SOM_model, type = "dist.neighbours")
+
+
+# boxploty
+windows()
+boxplot(dt)
+
+
+# histogramy
+# no scaling dataset
+
+dt %>%
+  ggplot(aes(x = mpg)) +
+  geom_histogram()
+
+dt %>%
+  ggplot(aes(x = cylinders)) +
+  geom_histogram()
+
+dt %>%
+  ggplot(aes(x = displacement)) +
+  geom_histogram()
+
+dt %>%
+  ggplot(aes(x = horsepower)) +
+  geom_histogram()
+
+dt %>%
+  ggplot(aes(x = weight)) +
+  geom_histogram()
+
+dt %>%
+  ggplot(aes(x = acceleration)) +
+  geom_histogram()
+
+dt %>%
+  ggplot(aes(x = model)) +
+  geom_histogram()
+
+dt %>%
+  ggplot(aes(x = origin)) +
+  geom_histogram()
