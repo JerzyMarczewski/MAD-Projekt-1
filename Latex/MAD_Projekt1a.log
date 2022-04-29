@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.11)  29 APR 2022 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.11)  29 APR 2022 17:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Jerzy/Documents/nauka/MAD/MAD_Projekt1a.tex
-(c:/Users/Jerzy/Documents/nauka/MAD/MAD_Projekt1a.tex
+**c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex
+(c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22> (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -207,16 +207,16 @@ Overfull \hbox (306.96306pt too wide) in paragraph at lines 42--57
 {C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2] (MAD_Projekt1a.aux) ) 
 Here is how much of TeX's memory you used:
  4687 strings out of 478659
- 71989 string characters out of 2845920
+ 72101 string characters out of 2845920
  393161 words of memory out of 3000000
  22770 multiletter control sequences out of 15000+600000
  412243 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,248b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,62p,264b,270s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on MAD_Projekt1a.pdf (2 pages, 62380 bytes).
+Output written on MAD_Projekt1a.pdf (2 pages, 63807 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
+ 195 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
