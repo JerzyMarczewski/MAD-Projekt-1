@@ -8,14 +8,13 @@ library(RCurl)
 library(kohonen)
 
 sekwencja <- seq(1, 298, 2)
-dim(dt)
 
 # pobieranie danych
 cars_gh <- getURL("https://raw.githubusercontent.com/JerzyMarczewski/MAD-Projekt-1/main/cars_multi.csv")
 dt <- read.csv(text = cars_gh, header = T, sep = ',', dec = '.')
 
+# redukcja ilosci wierszy w celu lepszej przejrzystości wyników
 dt <- dt[sekwencja,]
-dt
 
 # usuwamy puste wiersze 
 dt <- na.omit(dt)
