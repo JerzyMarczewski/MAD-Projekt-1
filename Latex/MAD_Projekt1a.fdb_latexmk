@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651244283 "c:/Users/Jerzy/Documents/nauka/MAD/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651244284
+["pdflatex"] 1651245796 "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651245798
   "C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1647087836 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1647087847 25420 c8aec155b056b85e182e793ec0db9532 ""
   "C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1647087853 40136 16da92d5d61839c18ed38ca17f5fa641 ""
@@ -54,9 +54,9 @@
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/listings/listings.sty" 1623004942 80964 64e57373f36316e4a09b517cbf1aba2e ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1623004942 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636713860 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
-  "MAD_Projekt1a.aux" 1651244284 1074 77193e75009a32df60babcba2261cbb4 "pdflatex"
-  "MAD_Projekt1a.tex" 1651244281 2899 f1fd08e47d7d8b3ed370fafd2b282aaa ""
-  "c:/Users/Jerzy/Documents/nauka/MAD/MAD_Projekt1a.tex" 1651244281 2899 f1fd08e47d7d8b3ed370fafd2b282aaa ""
+  "MAD_Projekt1a.aux" 1651245798 1074 77193e75009a32df60babcba2261cbb4 "pdflatex"
+  "MAD_Projekt1a.tex" 1651245795 3162 6f81284299d8a6d22f36760393aee648 ""
+  "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" 1651245795 3162 6f81284299d8a6d22f36760393aee648 ""
   (generated)
   "MAD_Projekt1a.aux"
   "MAD_Projekt1a.log"
