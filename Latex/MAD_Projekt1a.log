@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.11)  30 APR 2022 12:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.11)  30 APR 2022 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -152,71 +152,239 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \extratabsurround=\skip52
 \backup@length=\skip53
 \ar@cellbox=\box55
+) (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count279
+\float@exts=\toks26
+\float@box=\box56
+\@float@everytoks=\toks27
+\@floatcapt=\box57
+) (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count279
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box58
 ) (MAD_Projekt1a.aux)
 \openout1 = `MAD_Projekt1a.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-\c@lstlisting=\count280
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+\c@lstlisting=\count281
  (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count281
+\scratchcounter=\count282
 \scratchdimen=\dimen161
-\scratchbox=\box57
-\nofMPsegments=\count282
-\nofMParguments=\count283
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count284
+\scratchbox=\box59
+\nofMPsegments=\count283
+\nofMParguments=\count284
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count285
 \MPscratchDim=\dimen162
-\MPnumerator=\count285
-\makeMPintoPDFobject=\count286
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count286
+\makeMPintoPDFobject=\count287
+\everyMPtoPDFconversion=\toks29
 ) (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-Overfull \hbox (8.59827pt too wide) in paragraph at lines 61--61
-[]\T1/cmr/bx/n/12 Zmienne wy-brane do ana-lizy (opis i uza-sad-nie-nie zmien-
- []
-
-[1
+)) [1
 
 {C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (62.56679pt too wide) in paragraph at lines 79--96
+Underfull \hbox (badness 10000) in paragraph at lines 75--80
+
+ []
+
+[2]
+Overfull \hbox (62.56679pt too wide) in paragraph at lines 106--123
  [] 
  []
 
-[2] [3] [4] (MAD_Projekt1a.aux) ) 
+<../images/methods/../boxplots/boxplot_noscale_fig.jpeg, id=15, 1927.2pt x 992.70876pt>
+File: ../images/methods/../boxplots/boxplot_noscale_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/../boxplots/boxplot_noscale_fig.jpeg>
+Package pdftex.def Info: ../images/methods/../boxplots/boxplot_noscale_fig.jpeg  used on input line 128.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+[3]
+<../images/methods/../boxplots/boxplot_scale_fig.jpeg, id=22, 1927.2pt x 992.70876pt>
+File: ../images/methods/../boxplots/boxplot_scale_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/../boxplots/boxplot_scale_fig.jpeg>
+Package pdftex.def Info: ../images/methods/../boxplots/boxplot_scale_fig.jpeg  used on input line 134.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+<../images/methods/../histograms/mpg_hist.jpeg, id=23, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/mpg_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 140.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/mpg_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 145.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+ [4 <../images/methods/../boxplots/boxplot_noscale_fig.jpeg> <../images/methods/../boxplots/boxplot_scale_fig.jpeg>]
+File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/mpg_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 150.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/mpg_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 155.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+ [5 <../images/methods/../histograms/mpg_hist.jpeg>]
+File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/mpg_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 160.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/mpg_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 165.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+ [6]
+File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/mpg_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 170.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+<../images/methods/../histograms/origin_hist.jpeg, id=33, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/origin_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/origin_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/origin_hist.jpeg  used on input line 175.
+(pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
+ [7] [8 <../images/methods/../histograms/origin_hist.jpeg>]
+File: ../images/methods/../boxplots/boxplot_noscale_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/../boxplots/boxplot_noscale_fig.jpeg>
+Package pdftex.def Info: ../images/methods/../boxplots/boxplot_noscale_fig.jpeg  used on input line 183.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+ [9] [10]
+<../images/methods/elbow_fig.jpeg, id=53, 1927.2pt x 992.70876pt>
+File: ../images/methods/elbow_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/elbow_fig.jpeg>
+Package pdftex.def Info: ../images/methods/elbow_fig.jpeg  used on input line 255.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+<../images/methods/silhouette_fig.jpeg, id=54, 1927.2pt x 992.70876pt>
+File: ../images/methods/silhouette_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/silhouette_fig.jpeg>
+Package pdftex.def Info: ../images/methods/silhouette_fig.jpeg  used on input line 260.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+ [11 <../images/methods/elbow_fig.jpeg>]
+<../images/methods/kmeans_fig.jpeg, id=58, 1927.2pt x 992.70876pt>
+File: ../images/methods/kmeans_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/kmeans_fig.jpeg>
+Package pdftex.def Info: ../images/methods/kmeans_fig.jpeg  used on input line 266.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--275
+
+ []
+
+[12 <../images/methods/silhouette_fig.jpeg> <../images/methods/kmeans_fig.jpeg>]
+<../images/methods/ward_fig.jpeg, id=62, 1927.2pt x 992.70876pt>
+File: ../images/methods/ward_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/ward_fig.jpeg>
+Package pdftex.def Info: ../images/methods/ward_fig.jpeg  used on input line 278.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+<../images/methods/single_fig.jpeg, id=63, 1927.2pt x 992.70876pt>
+File: ../images/methods/single_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/single_fig.jpeg>
+Package pdftex.def Info: ../images/methods/single_fig.jpeg  used on input line 279.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+<../images/methods/complete_fig.jpeg, id=64, 1927.2pt x 992.70876pt>
+File: ../images/methods/complete_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/complete_fig.jpeg>
+Package pdftex.def Info: ../images/methods/complete_fig.jpeg  used on input line 280.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+<../images/methods/average_fig.jpeg, id=65, 1927.2pt x 992.70876pt>
+File: ../images/methods/average_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/average_fig.jpeg>
+Package pdftex.def Info: ../images/methods/average_fig.jpeg  used on input line 281.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+
+Overfull \hbox (0.22589pt too wide) in paragraph at lines 278--290
+\T1/cmr/m/n/10 Jak wi-dzimy wy-kresy wy-gl¡-daj¡ bar-dzo ró»-nie. Grupy zna-le-zione me-tod¡ Warda
+ []
+
+[13 <../images/methods/ward_fig.jpeg> <../images/methods/single_fig.jpeg>]
+<../images/methods/som_counts_fig.jpeg, id=70, 1927.2pt x 992.70876pt>
+File: ../images/methods/som_counts_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/som_counts_fig.jpeg>
+Package pdftex.def Info: ../images/methods/som_counts_fig.jpeg  used on input line 296.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+ [14 <../images/methods/complete_fig.jpeg> <../images/methods/average_fig.jpeg>]
+<../images/methods/som_codes_fig.jpeg, id=74, 1927.2pt x 992.70876pt>
+File: ../images/methods/som_codes_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/som_codes_fig.jpeg>
+Package pdftex.def Info: ../images/methods/som_codes_fig.jpeg  used on input line 303.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+ [15 <../images/methods/som_counts_fig.jpeg> <../images/methods/som_codes_fig.jpeg>]
+<../images/methods/som_neighbour_dist_fig.jpeg, id=78, 1927.2pt x 992.70876pt>
+File: ../images/methods/som_neighbour_dist_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/som_neighbour_dist_fig.jpeg>
+Package pdftex.def Info: ../images/methods/som_neighbour_dist_fig.jpeg  used on input line 309.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+<../images/methods/som_changes_fig.jpeg, id=79, 1927.2pt x 992.70876pt>
+File: ../images/methods/som_changes_fig.jpeg Graphic file (type jpg)
+<use ../images/methods/som_changes_fig.jpeg>
+Package pdftex.def Info: ../images/methods/som_changes_fig.jpeg  used on input line 315.
+(pdftex.def)             Requested size: 345.0pt x 177.71042pt.
+ [16 <../images/methods/som_neighbour_dist_fig.jpeg> <../images/methods/som_changes_fig.jpeg>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 330.
+ (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (54.65903pt too wide) in paragraph at lines 330--331
+[]$\T1/cmtt/m/n/10 https : / / github . com / RodolfoViana / exploratory-[]data-[]analysis-[]dataset-[]cars /
+ []
+
+
+Overfull \hbox (16.418pt too wide) in paragraph at lines 332--333
+[]$\T1/cmtt/m/n/10 https : / / pbiecek . github . io / NaPrzelajDataMiningR / part-[]3 . html # part _
+ []
+
+
+Overfull \hbox (59.40775pt too wide) in paragraph at lines 333--334
+[]$\T1/cmtt/m/n/10 https : / / nauka . metodolog . pl / metody-[]analizy-[]skupien-[]segmentacjagrupowanie/$ 
+ []
+
+
+Overfull \hbox (5.42056pt too wide) in paragraph at lines 334--335
+[]$\T1/cmtt/m/n/10 https : / / www . statsoft . pl / textbook / stathome _ stat . html ? https \ %3A %
+ []
+
+
+Overfull \hbox (156.38467pt too wide) in paragraph at lines 335--336
+[]$\T1/cmtt/m/n/10 https : / / www . r-[]bloggers . com / 2014 / 02 / self-[]organising-[]maps-[]for-[]customer-[]segmentation-[]using-[]r/$ 
+ []
+
+
+Overfull \hbox (26.41544pt too wide) in paragraph at lines 336--337
+[]$\T1/cmtt/m/n/10 https : / / pbiecek . gitbooks . io / przewodnik / content / Analiza / beznadzoru /
+ []
+
+[17] (MAD_Projekt1a.aux) ) 
 Here is how much of TeX's memory you used:
- 4691 strings out of 478659
- 72145 string characters out of 2845920
- 395224 words of memory out of 3000000
- 22772 multiletter control sequences out of 15000+600000
- 413705 words of font info for 50 fonts, out of 8000000 for 9000
+ 5027 strings out of 478659
+ 80690 string characters out of 2845920
+ 397791 words of memory out of 3000000
+ 23073 multiletter control sequences out of 15000+600000
+ 414018 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,310b,261s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on MAD_Projekt1a.pdf (4 pages, 184574 bytes).
+ 55i,8n,62p,892b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on MAD_Projekt1a.pdf (17 pages, 4683775 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
+ 507 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
