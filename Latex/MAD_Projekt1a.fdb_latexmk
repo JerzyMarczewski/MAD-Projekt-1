@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651325800 "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651325803
+["pdflatex"] 1651343024 "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651343027
   "../images/methods/../boxplots/boxplot_noscale_fig.jpeg" 1651310026 93084 e405c2d5b27bf09436d2e29fd2d4b56d ""
   "../images/methods/../boxplots/boxplot_scale_fig.jpeg" 1651310026 126442 4197a64940e8453711a005a62a519979 ""
   "../images/methods/../histograms/mpg_hist.jpeg" 1651245847 43204 16d0db9b7fb000a918e7aca746b3fce0 ""
@@ -86,9 +86,9 @@
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1623004942 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636713860 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "MAD_Projekt1a.aux" 1651325802 4287 606529517fb4926832a225726a6c020a "pdflatex"
-  "MAD_Projekt1a.tex" 1651325799 21401 025bf08fcad6a27945b5806b65757105 ""
-  "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" 1651325799 21401 025bf08fcad6a27945b5806b65757105 ""
+  "MAD_Projekt1a.aux" 1651343026 4289 5fcd9bb750c9a5883e30214388172aa2 "pdflatex"
+  "MAD_Projekt1a.tex" 1651343022 23182 be385ad0173bb3981d732de506378c90 ""
+  "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" 1651343022 23182 be385ad0173bb3981d732de506378c90 ""
   (generated)
   "MAD_Projekt1a.aux"
   "MAD_Projekt1a.log"
