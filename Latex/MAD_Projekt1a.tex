@@ -17,7 +17,7 @@
 % tabelki
 \usepackage{array}
 
-\title{Analiza skupień zestawu samochodów amerykańskich, europejskich i japońskich wyprodukowanych w latach 1970-1982}
+\title{Analiza skupień zestawu parametrów samochodów amerykańskich, europejskich i japońskich wyprodukowanych w latach 1970-1982}
 % \author{Jerzy Marczewski, Dawid Rozumkiewicz, Wojciech Pietraszuk, Karol Hetmański, Przemysław Chachaj}
 \author{\fontsize{11}{13}\selectfont Jerzy Marczewski, \newline Dawid Rozumkiewicz, Wojciech Pietraszuk, Karol Hetmański, Przemysław Chachaj}
 \author{
@@ -39,6 +39,19 @@
 \section{Streszczenie}
 
 \section{Słowa kluczowe}
+    \begin{itemize}
+        \item klaster 
+        \item klateryzacja - metoda klasyfikacji bez nadzoru (ang. usupervised learning), która grupuje elementy na względnie jednorodne klasy
+        \item mpg - \textit{(ang. miles per gallon)} mile na galon
+        \item objętość skokowa cylindra - różnica pomiędzy maksymalną a minimalną objętością cylindra
+        \item objętość skokowa silnika - iloczyn objętości skokowej cylindra i liczby cylindrów
+        \item hp - \textit{(ang. Horsepower)} 
+        \item metoda k-średnich
+        \item metoda Warda
+        \item SOM - \textit{(ang. Self-organizing map)} sieć Kohonena 
+        \item BMU - \textit{(ang. best matching unit)} najlepiej dopasowana jednostka
+    \end{itemize}
+
 
 \section{Wprowadzenie}
 
@@ -89,8 +102,47 @@
 \section{Opis metod}
     \subsection{wzory wraz z opisami oznaczeń}
         \subsubsection*{Metoda k-średnich}
+        Celem metody jest przypisanie do wektorów $r_i$ n wymiarowych wektorów danych,
+        przy jak najmniejszym średnim błędzie kwantyzacji.
+        Średni błąd kwantyzacji opisany jest wzorem:
+            \begin{equation*}
+                D = \frac{1}{K}\sum_{i=1}^{K} d(x_i, r)
+            \end{equation*}
+            \begin{itemize}
+                \item K - liczba elementów ${x_i}$ przypisanych do wektora r
+                \item d - miara błędu kwantyzacji, najczęściej błąd kwadratowy opisany wzorem:
+                \begin{equation*}
+                    d(x,r) = \sum_{j=1}^{n} (x_j - r_j)^2
+                \end{equation*}
+            \end{itemize}
         \subsubsection*{Metoda Warda}
+            Odległość nowego skupienia od każdego pozostałego: 
+            \begin{equation*}
+                D_{pr} = a_{1}\cdot d_{pr} + a_{2}\cdot d_{qr} + b\cdot d_{pq}
+            \end{equation*}
+            \begin{itemize}
+                \item r - numery skupień różne od p i q
+                \item $D_{pr}$ - odległość nowego od skupienia r
+                \item $d_{pr}$ - odległość pierwotnego skupienia p od skupienia r
+                \item $d_{qr}$ - odległość pierwotnego skupienia q od skupienia r
+                \item $d_{pq}$ - wzajemna odległość pierwotnych skupień p i q
+                \item $a_{1} = \frac{n_{p} + n_{r}}{n_{p} + n_{q} + n_{r}}$, $a_{2} = \frac{n_{q} + n_{r}}{n_{p} + n_{q} + n_{r}}$, $b = \frac{-n_{r}}{n_{p} + n_{q} + n_{r}}$
+                \item n - liczebność pojedyńczych obiektów w poszczególnych obiektach
+            \end{itemize}
         \subsubsection*{SOM}
+        Wzór aktualizowania neuronu v z wagą wektora $W_v(s)$:
+            \begin{equation*}
+                W_v(s+1) = W_v(s) + \theta(u,v,s) \cdot \alpha(s) \cdot (D(t)-W_v(s))
+            \end{equation*}
+            \begin{itemize}
+                \item s - obecna iteracja
+                \item t - indeks docelowego wektora danych wejściowych w zbiorze danych wejściowych D 
+                \item D(t) - docelowy wektor danych wejściowych
+                \item v - indeks wektora w mapie
+                \item $W_v$ - aktualny wektor wagi węzła v
+                \item u - to indeks BMU na mapie
+                \item ${\theta(u,v,s)}$ - jest ograniczeniem ze względu na odległość od BMU, zwykle nazywaną funkcją sąsiedztwa
+            \end{itemize}
     \subsection{cytowanie pracy w której zaproponowano metodę/ewentualnie pracy, w której użyto metodę}
 
 \section{Rezultaty (w postaci tabelarycznej i/lub graficznej oraz omówienie wyników)}
