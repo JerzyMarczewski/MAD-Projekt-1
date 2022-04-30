@@ -17,8 +17,20 @@
 % tabelki
 \usepackage{array}
 
-\title{Analiza skupień nakładów inwestycyjnych w Polsce w latach 2010-2020}
-\author{Jerzy Marczewski, Dawid Rozumkiewicz, Wojciech Pietraszuk, Karol Hetmański, Przemysław Chachaj}
+\title{Analiza skupień zestawu samochodów amerykańskich, europejskich i japońskich wyprodukowanych w latach 1970-1982}
+% \author{Jerzy Marczewski, Dawid Rozumkiewicz, Wojciech Pietraszuk, Karol Hetmański, Przemysław Chachaj}
+\author{\fontsize{11}{13}\selectfont Jerzy Marczewski, \newline Dawid Rozumkiewicz, Wojciech Pietraszuk, Karol Hetmański, Przemysław Chachaj}
+\author{
+  Jerzy Marczewski\\
+  \and
+  Dawid Rozumkiewicz\\
+  \and
+  Wojciech Pietraszuk\\
+  \and
+  Karol Hetmański\\
+  \and
+  Przemysław Chachaj\\
+}
 \date{}
 \begin{document}
 
@@ -31,42 +43,55 @@
 \section{Wprowadzenie}
 
 \section{Przedmiot badania}
+    \subsection{Cel i zakres badania} 
+    \subsection{(min. 1 cytowanie powiązane tematycznie i krótki opis co było badane)}
+    \subsection{Zmienne wybrane do analizy (opis i uzasadnienie zmiennych oraz podział na stymulanty/destymulanty) minimum sześć zmiennych}
+    Do analizy wybrano następujące cechy diagnostyczne:
     \begin{itemize}
-        \item Cel i zakres badania
-        \item Przegląd literatury (min. 1 cytowanie powiązane tematycznie i krótki opis co było badane)
-        \item Zmienne wybrane do analizy (opis i uzasadnienie zmiennych oraz podział na stymulanty/destymulanty) minimum sześć zmiennych
-        \item Wstępna analiza danych
-        \begin{itemize}
-            \item statystyki opisowe (przynajmniej: średnia, mediana, minimum, maksimum, odchylenie standardowe, skośność)
-                \begin{center}
-                    \begin{tabular}{ |c|c|c|c|c|c|c|c|c|c| } 
-                        \hline
-                        & mpg & cylindry & objętość skokowa & KM & przyspieszenie & model & kraj \\
-                        \hline
-                        średnia & 20.762205  & 5.818898 & 216.090551 & 112.913386 & 3139.322835 & 15.313386 & 74.346457 & 1.464567 \\
-                        \hline
-                        min & 9 & 4 & 72 & 46 & 1613 & 9 & 70 & 1  \\
-                        \hline
-                        max & 43.1 & 8.0 & 455.0 & 230.0 & 5140.0 & 22.1 & 79.0 &  3.0  \\
-                        \hline
-                        odchylenie stan. & 6.6167528 & 1.7835995 & 109.9333567 & 41.6378993 & 900.7412457 & 2.8039757 & 2.9260135 &  0.7431729  \\
-                        \hline
-                        skośność & 0.71300125 & 0.17975327 & 0.33718586 & 0.79478074 & 0.24423388 & 0.06336346 & 0.04447328 &  1.21389161 \\
-                    \hline
-                    \end{tabular}
-                \end{center}
-            \item podstawowa wizualizacja np. boxplot, histogramy
-            % braki danych, czy występują i jak je obsłużono
-            \item Braki danych
-            \item obserwacje odstające i w jaki sposób je obsłużono
-        \end{itemize}
+        \item ${X_1}$ - mpg
+        \item ${X_2}$ - liczba cylidnrów 
+        \item ${X_3}$ - objętość skokowa silnika
+        \item ${X_4}$ - hp
+        \item ${X_5}$ - waga (podana w funtach)
+        \item ${X_6}$ - przyspieszenie
+        \item ${X_7}$ - model (rok modelowy auta wyrażony w dwóch ostanich cyfrach roku)
+        \item ${X_8}$ - kraj pochodzenia (1 - Stany Zjednoczone, 2 - Europa, 3 - Japonia)
     \end{itemize}
+    
+    \subsection{Wstępna analiza danych}
+        \subsubsection*{Statystyki opisowe}
+        Wyniki średniej, mediany, minimum, maksimum, odchylenia standardowego, skośności dla każdej z cech zaokrąglone do dwóch 
+        miejsc po przeciunku:
+        \begin{center}
+            \begin{tabular}{ |c|c|c|c|c|c|c|c|c|c| } 
+                \hline
+                & ${X_1}$ & ${X_2}$ & ${X_3}$ & ${X_4}$ & ${X_5}$ & ${X_6}$ & ${X_7}$ & ${X_8}$ \\
+                \hline
+                średnia & 20.76  & 5.81 & 216.09 & 112.91 & 3139.32 & 15.31 & 74.35 & 1.46 \\
+                \hline
+                mediana & 19.2 & 6.0 & 225.0 & 100.0 & 3139.0 & 15.5 & 74.0 & 1.0 \\
+                \hline
+                min & 9 & 4 & 72 & 46 & 1613 & 9 & 70 & 1  \\
+                \hline
+                max & 43.1 & 8.0 & 455.0 & 230.0 & 5140.0 & 22.1 & 79.0 &  3.0  \\
+                \hline
+                odchylenie standardowe & 6.62 & 1.78 & 109.93 & 41.64 & 900.74 & 2.80 & 2.93 &  0.74  \\
+                \hline
+                skośność & 0.71 & 0.18 & 0.34 & 0.79 & 0.24 & 0.06 & 0.04 &  1.21 \\
+            \hline
+            \end{tabular}
+        \end{center}
+        \subsubsection*{podstawowa wizualizacja np. boxplot, histogramy}
+        \subsubsection*{braki danych, czy występują i jak je obsłużono}
+        Braki danych występują jedynie dla cechy hp. Wszystkie samochody z brakiem danych zostały usunięte z danych za pomocą skryptu w R.
+        \subsubsection*{obserwacje odstające i w jaki sposób je obsłużono}
 
 \section{Opis metod}
-    \begin{itemize}
-        \item wzory wraz z opisami oznaczeń
-        \item cytowanie pracy w której zaproponowano metodę/ewentualnie pracy, w której użyto metodę
-    \end{itemize}
+    \subsection{wzory wraz z opisami oznaczeń}
+        \subsubsection*{Metoda k-średnich}
+        \subsubsection*{Metoda Warda}
+        \subsubsection*{SOM}
+    \subsection{cytowanie pracy w której zaproponowano metodę/ewentualnie pracy, w której użyto metodę}
 
 \section{Rezultaty (w postaci tabelarycznej i/lub graficznej oraz omówienie wyników)}
 \section{Podsumowanie (ocena realizacji celu, odniesienie do pozycji z przeglądu literatury)}
