@@ -78,7 +78,7 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
     Naszym celem jest wykonanie analizy skupień samochodów. Badanie podzieli nam dane na klastry, na podstawie których będziemy mogli 
     wywnioskować, które samochody są do siebie podobne, a które się między sobą różnią. 
     \newline
-    \subsection{(min. 1 cytowanie powiązane tematycznie i krótki opis co było badane)}
+    \subsection{Cytowanie powiązane tematycznie i krótki opis co było badane}
     ``W przypadku rynku samochodowego pozycjonowanie modelu samochodu w określonym segmencie nie zawsze w pełni oddaje faktyczny stan rzeczy. Nie istnieją bowiem w tym przypadku sztywne granice segmentów. Poszczególne segmenty raczej się zazębiają, powodując, że pewne modele znajdują się na pograniczu, a ich jednoznaczne przyporządkowanie jest mocno utrudnione.'' \newline- Bartłomiej Jefmański, Katedra Ekonometrii i Informatyki, Uniwersytet Ekonomiczny we Wrocławiu
     \newline\newline
     W powyższym artykule badane były samochody pochodzenia europejskiego w różnych kategoriach cenowych.
@@ -146,32 +146,32 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
             \begin{figure}[H]
                 \caption{Histogram cylidnrów}
                 \centering
-                \includegraphics[width=0.7\textwidth]{../histograms/mpg_hist.jpeg}
+                \includegraphics[width=0.7\textwidth]{../histograms/cylinders_hist.jpeg}
             \end{figure}
             \begin{figure}[H]
                 \caption{Histogram objętości skokowej silnika}
                 \centering
-                \includegraphics[width=0.7\textwidth]{../histograms/mpg_hist.jpeg}
+                \includegraphics[width=0.7\textwidth]{../histograms/displacement_hist.jpeg}
             \end{figure}
             \begin{figure}[H]
                 \caption{Histogram hp}
                 \centering
-                \includegraphics[width=0.7\textwidth]{../histograms/mpg_hist.jpeg}
+                \includegraphics[width=0.7\textwidth]{../histograms/horsepower_hist.jpeg}
             \end{figure}
             \begin{figure}[H]
                 \caption{Histogram wagi}
                 \centering
-                \includegraphics[width=0.7\textwidth]{../histograms/mpg_hist.jpeg}
+                \includegraphics[width=0.7\textwidth]{../histograms/weight_hist.jpeg}
             \end{figure}
             \begin{figure}[H]
                 \caption{Histogram przyspieszenia}
                 \centering
-                \includegraphics[width=0.7\textwidth]{../histograms/mpg_hist.jpeg}
+                \includegraphics[width=0.7\textwidth]{../histograms/acceleration_hist.jpeg}
             \end{figure}
             \begin{figure}[H]
                 \caption{Histogram modelu}
                 \centering
-                \includegraphics[width=0.7\textwidth]{../histograms/mpg_hist.jpeg}
+                \includegraphics[width=0.7\textwidth]{../histograms/model_hist.jpeg}
             \end{figure}
             \begin{figure}[H]
                 \caption{Histogram kraju pochodzenia}
@@ -239,7 +239,7 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
             będący graficzną interpretacją uzyskanych efektów. W zależności od przyjętych założeń badania, w tym zwłaszcza akceptowanej odległości
             taksonomicznej między obiektami ze względu na zaproponowany zestaw cech, możemy wyróżniać większe lub mniejsze skupienia, a co za tym
             idzie – mniejszą lub większą ich liczbę."}
-            - Grupowanie państw Unii Europejskiej ze względu na zasoby kapitału ludzkiego i intelektualnego - Dr Małgorzata Stec, 
+            \newline- Grupowanie państw Unii Europejskiej ze względu na zasoby kapitału ludzkiego i intelektualnego - Dr Małgorzata Stec, 
             Mgr Agata Janas, Mgr Artur Kuliński - Uniwersytet Rzeszowski
         \end{quotation}
         \begin{quotation}
@@ -248,7 +248,7 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
             Może ona być zastosowana do wizualizacji skupisk w zbiorze danych, zachowując nieliniowe relacje między jednostkami i lokując 
             bliskie jednostki bliżej siebie. Podczas trenowania sieci SOM wagi neuronów modelowane są w taki sposób, by bardzo zbliżone do 
             siebie przypadki reprezentował ten sam neuron, a podobne reprezentowane były przez neurony sąsiednie."}
-            - Grupowanie państw Unii Europejskiej ze względu na zasoby kapitału ludzkiego i intelektualnego - Dr Małgorzata Stec, 
+            \newline- Grupowanie państw Unii Europejskiej ze względu na zasoby kapitału ludzkiego i intelektualnego - Dr Małgorzata Stec, 
             Mgr Agata Janas, Mgr Artur Kuliński - Uniwersytet Rzeszowski
         \end{quotation}
     
@@ -262,19 +262,19 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
             naszych danych.
         \subsubsection{Metoda silhouette}
             \includegraphics[width=\textwidth]{silhouette_fig.jpeg}
-            Kolejna metoda to ustalenia odpowiedniej liczby grupy, skupisk do naszych danych. 
-            Z tej metody wyszło, że nasze dane powinny być podzielone na 2 grupy. Ostatecznie 
-            wybraliśmy wybraliśmy 3 grupy zgodnie z metodą łokciową.
+            Kolejna metoda do ustalenia odpowiedniej liczby grupy, skupisk do naszych danych to metoda silhouette. 
+            Z tej metody wyszło, że nasze dane powinny być podzielone na 2 grupy. 
+            \newline\newline Ostatecznie wybraliśmy 3 grupy zgodnie z metodą łokciową.
     
     \subsection{Metoda k-średnich}    
         \includegraphics[width = \textwidth]{kmeans_fig}
         Dzięki metodom, które pomagają wybrać optymalną liczbę grup mogliśmy przeprowadzić analizę metodą k-średnich. 
-        Nasza optymalna liczba grup to 3. Z tego wykresu możemy odczytać zbiory o podobnych elementach oraz odległość między nimi. 
+        Nasza optymalna liczba grup to 3. 
+        \newline\newline Z tego wykresu możemy odczytać zbiory o podobnych elementach oraz odległość między nimi. 
         Co świadczy o wielkości podobieństwa. Na naszym wykresie można dostrzec, że dwa zbiory się pokrywają co świadczy o tym, że dane, 
         które znajdują się w obu zbiorach kwalifikują się zarówno do zbioru zielonego i czerwonego, czyli ich parametry są do siebie zbliżone.
         \newline\newline
-        W zbiorze niebieskim są tylko samochody pochodzenia amerykańskiego, a w zbiorach zielonym i czerwonym są samochody pochodzenia 
-        europejskiego i japońskiego. Samochody amerykańskie charakteryzuje duża pojemność silnika, wysoka objętość skokowa silnika, duża 
+        W zbiorze niebieskim są tylko samochody pochodzenia amerykańskiego, te samochody charakteryzuje duża pojemność silnika, wysoka objętość skokowa silnika, duża 
         waga oraz niskie mpg.
 
         
@@ -285,12 +285,7 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
         \includegraphics[width = \textwidth]{average_fig.jpeg}
         Jak widzimy wykresy wyglądają bardzo różnie. Grupy znalezione metodą Warda mają zbliżone wielkości. W przypadku metody single  wykres 
         jest najmniej czytelny oraz w klastrze trzecim, czyli niebieskim występuje tylko jeden obiekt. W tej metodzie grupa druga, czyli zielona 
-        przyjęła elementy z grupy niebieskiej porównując do reszty metod łączenia. Metoda Warda ma najbardziej czytelny wykres, łatwo z niego 
-        można odczytać otrzymane wyniki. Wykresy metod complete oraz average są dosyć podobne do siebie. 
-        Można zauważyć również, że zbiory zielone i niebieski się zawsze łączą a dopiero później łączą się z ostatnim czerwonym. Wynika z tego 
-        więc, że zbiór zielony i niebieski mają więcej wspólnych cech niż z zbiorem czerwonym. W przypadku wykresu complete wysokość osiąga 
-        wartość 8, w average około 5, w single około 1.5 i w metodzie Warda około 33. Im większa wysokość tym mniejsze powiązanie między 
-        aglomeracjami. Z tego wynika, że w metodzie single jest najmniejsza różnica powiązań, a w metodzie Warda najmniejsza.
+        przyjęła elementy z grupy niebieskiej. Metoda Warda ma najbardziej czytelny wykres, łatwo z niego można odczytać otrzymane wyniki. Wykresy metod complete oraz average są dosyć podobne do siebie. Można zauważyć również, że zbiory zielone i niebieski najpierw łączą się ze sobą, a później z czerwonym. Wynika z tego więc, że zbiór zielony i niebieski mają więcej wspólnych cech niż ze zbiorem czerwonym. W przypadku wykresu complete wysokość osiąga wartość 8, w average około 5, w single około 1.5 i w metodzie Warda około 33. Im większa wysokość tym mniejsze powiązanie między aglomeracjami. Z tego wynika, że w metodzie single jest najmniejsza różnica powiązań, a w metodzie Warda największa. Wraz ze wzrostem wysokości dendrogramu obniża się próg stanowiący o decyzji przypisania dwóch lub więcej obiektów do tego samego skupienia.
 
 
     \subsection{SOM}
@@ -298,21 +293,16 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
             Rozmiar siatki to $5\times4$
             \newline
             \includegraphics[width = \textwidth]{som_counts_fig.jpeg}
-            Ustawiliśmy siatkę w wymiarach x = 5 i y = 4, ponieważ przy takich wymiarach nie pojawiają się 
-            szare okręgi, czyli takie, które są puste. Przy takich wymiarach siatki liczebność zbiorów liczy od 1 do 14. 
-            Największe zbioru są w prawym dolnym rogu, na środku przy dolnej krawędzi wykresu oraz w prawym górnym rogu. 
-            Zbiory o najmniejszej liczbie elementów mieszczą się w środku. Po lewej stronie ziobry mają po około 6 elementów.
+            Ustawiliśmy siatkę w wymiarach x = 5 i y = 4, ponieważ przy takich wymiarach nie pojawiają się szare okręgi, czyli takie, które są puste. Dla siatki o powyższych wymiarach liczebność zbiorów liczy od 1 do 14. Największe zbiory są w prawym dolnym rogu, na środku przy dolnej krawędzi wykresu oraz w prawym górnym rogu. Zbiory o najmniejszej liczbie elementów mieszczą się w środku. Po lewej stronie ziobry mają po około 6 elementów.
 
         \subsubsection{SOM codes}   
             \includegraphics[width = \textwidth]{som_codes_fig.jpeg}
-            W prawym dolnym rogu są zbiory według liczby cylindrów, objętości skokowej silnika, liczby koni mechanicznych i wagi. 
-            Były to też najliczniejsze zbiory według wykresu som counts. Od środka do lewej strony widać, że zbiory są dobierane według 
-            modelu, czyli roku produkcji. W środku duże znaczenie ma pochodzenie samochodu.
+            W prawym dolnym rogu są zbiory według liczby cylindrów, objętości skokowej silnika, liczby koni mechanicznych i wagi. Były to też najliczniejsze zbiory według wykresu typu counts. Od środka do lewej strony widać, że zbiory są dobierane według modelu, czyli roku produkcji. W środku duże znaczenie ma pochodzenie samochodu.
 
         \subsubsection{SOM neighbour distance}
             \includegraphics[width = \textwidth]{som_neighbour_dist_fig.jpeg}
             Skala od 0 do 6. Najmniejsze odległości między zbiorami można zaobserwować w lewym dolnym roku oraz w prawym dolnym rogu. 
-            W drugim i trzecim wierszy od środka w prawo są największe odległości między zbiorami, co oznacza, że mają mniej wspólnych cech. 
+            W drugim i trzecim wierszu od środka w prawo są największe odległości między zbiorami, co oznacza, że mają mniej wspólnych cech. 
             Reszta zbiorów ma odległość na poziomie około 4, według skali przedstawionej na wykresie. 
 
         \subsubsection{SOM training progress}

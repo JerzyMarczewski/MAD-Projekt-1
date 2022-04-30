@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.11)  30 APR 2022 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.3.11)  30 APR 2022 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -215,6 +215,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--81
  []
 
 
+Overfull \hbox (0.55582pt too wide) in paragraph at lines 81--81
+[]\T1/cmr/bx/n/12 Cytowanie po-wi¡-zane te-ma-tycz-nie i krótki opis co byªo
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 82--85
 
  []
@@ -241,56 +246,68 @@ File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
 <use ../images/methods/../histograms/mpg_hist.jpeg>
 Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 144.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
-File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
-<use ../images/methods/../histograms/mpg_hist.jpeg>
-Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 149.
+<../images/methods/../histograms/cylinders_hist.jpeg, id=27, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/cylinders_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/cylinders_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/cylinders_hist.jpeg  used on input line 149.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
-File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
-<use ../images/methods/../histograms/mpg_hist.jpeg>
-Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 154.
+<../images/methods/../histograms/displacement_hist.jpeg, id=28, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/displacement_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/displacement_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/displacement_hist.jpeg  used on input line 154.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
  [5 <../images/methods/../boxplots/boxplot_scale_fig.jpeg> <../images/methods/../histograms/mpg_hist.jpeg>]
-File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
-<use ../images/methods/../histograms/mpg_hist.jpeg>
-Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 159.
+<../images/methods/../histograms/horsepower_hist.jpeg, id=32, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/horsepower_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/horsepower_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/horsepower_hist.jpeg  used on input line 159.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
-File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
-<use ../images/methods/../histograms/mpg_hist.jpeg>
-Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 164.
+<../images/methods/../histograms/weight_hist.jpeg, id=33, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/weight_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/weight_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/weight_hist.jpeg  used on input line 164.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
- [6]
-File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
-<use ../images/methods/../histograms/mpg_hist.jpeg>
-Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 169.
+ [6 <../images/methods/../histograms/cylinders_hist.jpeg> <../images/methods/../histograms/displacement_hist.jpeg>]
+<../images/methods/../histograms/acceleration_hist.jpeg, id=37, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/acceleration_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/acceleration_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/acceleration_hist.jpeg  used on input line 169.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
-File: ../images/methods/../histograms/mpg_hist.jpeg Graphic file (type jpg)
-<use ../images/methods/../histograms/mpg_hist.jpeg>
-Package pdftex.def Info: ../images/methods/../histograms/mpg_hist.jpeg  used on input line 174.
+<../images/methods/../histograms/model_hist.jpeg, id=38, 666.49pt x 666.49pt>
+File: ../images/methods/../histograms/model_hist.jpeg Graphic file (type jpg)
+<use ../images/methods/../histograms/model_hist.jpeg>
+Package pdftex.def Info: ../images/methods/../histograms/model_hist.jpeg  used on input line 174.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
- [7]
-<../images/methods/../histograms/origin_hist.jpeg, id=37, 666.49pt x 666.49pt>
+ [7 <../images/methods/../histograms/horsepower_hist.jpeg> <../images/methods/../histograms/weight_hist.jpeg>]
+<../images/methods/../histograms/origin_hist.jpeg, id=43, 666.49pt x 666.49pt>
 File: ../images/methods/../histograms/origin_hist.jpeg Graphic file (type jpg)
 <use ../images/methods/../histograms/origin_hist.jpeg>
 Package pdftex.def Info: ../images/methods/../histograms/origin_hist.jpeg  used on input line 179.
 (pdftex.def)             Requested size: 241.49895pt x 241.49219pt.
- [8]
+ [8 <../images/methods/../histograms/acceleration_hist.jpeg> <../images/methods/../histograms/model_hist.jpeg>]
 File: ../images/methods/../boxplots/boxplot_noscale_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/../boxplots/boxplot_noscale_fig.jpeg>
 Package pdftex.def Info: ../images/methods/../boxplots/boxplot_noscale_fig.jpeg  used on input line 187.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
  [9 <../images/methods/../histograms/origin_hist.jpeg>] [10]
-<../images/methods/elbow_fig.jpeg, id=53, 1927.2pt x 992.70876pt>
+<../images/methods/elbow_fig.jpeg, id=59, 1927.2pt x 992.70876pt>
 File: ../images/methods/elbow_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/elbow_fig.jpeg>
 Package pdftex.def Info: ../images/methods/elbow_fig.jpeg  used on input line 259.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
  [11]
-<../images/methods/silhouette_fig.jpeg, id=57, 1927.2pt x 992.70876pt>
+<../images/methods/silhouette_fig.jpeg, id=63, 1927.2pt x 992.70876pt>
 File: ../images/methods/silhouette_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/silhouette_fig.jpeg>
 Package pdftex.def Info: ../images/methods/silhouette_fig.jpeg  used on input line 264.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
-<../images/methods/kmeans_fig.jpeg, id=58, 1927.2pt x 992.70876pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--268
+
+ []
+
+[12 <../images/methods/elbow_fig.jpeg> <../images/methods/silhouette_fig.jpeg>]
+<../images/methods/kmeans_fig.jpeg, id=67, 1927.2pt x 992.70876pt>
 File: ../images/methods/kmeans_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/kmeans_fig.jpeg>
 Package pdftex.def Info: ../images/methods/kmeans_fig.jpeg  used on input line 270.
@@ -300,102 +317,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--279
 
  []
 
-[12 <../images/methods/elbow_fig.jpeg> <../images/methods/silhouette_fig.jpeg>]
-<../images/methods/ward_fig.jpeg, id=62, 1445.4pt x 744.53156pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--279
+
+ []
+
+<../images/methods/ward_fig.jpeg, id=68, 1445.4pt x 744.53156pt>
 File: ../images/methods/ward_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/ward_fig.jpeg>
 Package pdftex.def Info: ../images/methods/ward_fig.jpeg  used on input line 282.
 (pdftex.def)             Requested size: 345.0pt x 177.70285pt.
-<../images/methods/single_fig.jpeg, id=63, 1927.2pt x 992.70876pt>
+<../images/methods/single_fig.jpeg, id=69, 1927.2pt x 992.70876pt>
 File: ../images/methods/single_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/single_fig.jpeg>
 Package pdftex.def Info: ../images/methods/single_fig.jpeg  used on input line 283.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
-<../images/methods/complete_fig.jpeg, id=64, 1927.2pt x 992.70876pt>
+<../images/methods/complete_fig.jpeg, id=70, 1927.2pt x 992.70876pt>
 File: ../images/methods/complete_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/complete_fig.jpeg>
 Package pdftex.def Info: ../images/methods/complete_fig.jpeg  used on input line 284.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
-<../images/methods/average_fig.jpeg, id=65, 1927.2pt x 992.70876pt>
+<../images/methods/average_fig.jpeg, id=71, 1927.2pt x 992.70876pt>
 File: ../images/methods/average_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/average_fig.jpeg>
 Package pdftex.def Info: ../images/methods/average_fig.jpeg  used on input line 285.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
 
-Overfull \hbox (0.22589pt too wide) in paragraph at lines 282--294
+Overfull \hbox (0.22589pt too wide) in paragraph at lines 282--289
 \T1/cmr/m/n/10 Jak wi-dzimy wy-kresy wy-gl¡-daj¡ bar-dzo ró»-nie. Grupy zna-le-zione me-tod¡ Warda
  []
 
 [13 <../images/methods/kmeans_fig.jpeg>] [14 <../images/methods/ward_fig.jpeg> <../images/methods/single_fig.jpeg>]
-<../images/methods/som_counts_fig.jpeg, id=73, 1927.2pt x 992.70876pt>
+<../images/methods/som_counts_fig.jpeg, id=79, 1927.2pt x 992.70876pt>
 File: ../images/methods/som_counts_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/som_counts_fig.jpeg>
-Package pdftex.def Info: ../images/methods/som_counts_fig.jpeg  used on input line 300.
+Package pdftex.def Info: ../images/methods/som_counts_fig.jpeg  used on input line 295.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
  [15 <../images/methods/complete_fig.jpeg> <../images/methods/average_fig.jpeg>]
-<../images/methods/som_codes_fig.jpeg, id=77, 1927.2pt x 992.70876pt>
+<../images/methods/som_codes_fig.jpeg, id=83, 1927.2pt x 992.70876pt>
 File: ../images/methods/som_codes_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/som_codes_fig.jpeg>
-Package pdftex.def Info: ../images/methods/som_codes_fig.jpeg  used on input line 307.
+Package pdftex.def Info: ../images/methods/som_codes_fig.jpeg  used on input line 299.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
  [16 <../images/methods/som_counts_fig.jpeg> <../images/methods/som_codes_fig.jpeg>]
-<../images/methods/som_neighbour_dist_fig.jpeg, id=81, 1927.2pt x 992.70876pt>
+<../images/methods/som_neighbour_dist_fig.jpeg, id=87, 1927.2pt x 992.70876pt>
 File: ../images/methods/som_neighbour_dist_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/som_neighbour_dist_fig.jpeg>
-Package pdftex.def Info: ../images/methods/som_neighbour_dist_fig.jpeg  used on input line 313.
+Package pdftex.def Info: ../images/methods/som_neighbour_dist_fig.jpeg  used on input line 303.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
-<../images/methods/som_changes_fig.jpeg, id=82, 1927.2pt x 992.70876pt>
+<../images/methods/som_changes_fig.jpeg, id=88, 1927.2pt x 992.70876pt>
 File: ../images/methods/som_changes_fig.jpeg Graphic file (type jpg)
 <use ../images/methods/som_changes_fig.jpeg>
-Package pdftex.def Info: ../images/methods/som_changes_fig.jpeg  used on input line 319.
+Package pdftex.def Info: ../images/methods/som_changes_fig.jpeg  used on input line 309.
 (pdftex.def)             Requested size: 345.0pt x 177.71042pt.
  [17 <../images/methods/som_neighbour_dist_fig.jpeg> <../images/methods/som_changes_fig.jpeg>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 342.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 332.
  (C:\Users\Jerzy\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (54.65903pt too wide) in paragraph at lines 342--343
+Overfull \hbox (54.65903pt too wide) in paragraph at lines 332--333
 []$\T1/cmtt/m/n/10 https : / / github . com / RodolfoViana / exploratory-[]data-[]analysis-[]dataset-[]cars /
  []
 
 [18]
-Overfull \hbox (16.418pt too wide) in paragraph at lines 344--345
+Overfull \hbox (16.418pt too wide) in paragraph at lines 334--335
 []$\T1/cmtt/m/n/10 https : / / pbiecek . github . io / NaPrzelajDataMiningR / part-[]3 . html # part _
  []
 
 
-Overfull \hbox (59.40775pt too wide) in paragraph at lines 345--346
+Overfull \hbox (59.40775pt too wide) in paragraph at lines 335--336
 []$\T1/cmtt/m/n/10 https : / / nauka . metodolog . pl / metody-[]analizy-[]skupien-[]segmentacjagrupowanie/$ 
  []
 
 
-Overfull \hbox (5.42056pt too wide) in paragraph at lines 346--347
+Overfull \hbox (5.42056pt too wide) in paragraph at lines 336--337
 []$\T1/cmtt/m/n/10 https : / / www . statsoft . pl / textbook / stathome _ stat . html ? https \ %3A %
  []
 
 
-Overfull \hbox (156.38467pt too wide) in paragraph at lines 347--348
+Overfull \hbox (156.38467pt too wide) in paragraph at lines 337--338
 []$\T1/cmtt/m/n/10 https : / / www . r-[]bloggers . com / 2014 / 02 / self-[]organising-[]maps-[]for-[]customer-[]segmentation-[]using-[]r/$ 
  []
 
 
-Overfull \hbox (26.41544pt too wide) in paragraph at lines 348--349
+Overfull \hbox (26.41544pt too wide) in paragraph at lines 338--339
 []$\T1/cmtt/m/n/10 https : / / pbiecek . gitbooks . io / przewodnik / content / Analiza / beznadzoru /
  []
 
 [19] (MAD_Projekt1a.aux) ) 
 Here is how much of TeX's memory you used:
- 5027 strings out of 478659
- 80690 string characters out of 2845920
+ 5075 strings out of 478659
+ 83090 string characters out of 2845920
  395791 words of memory out of 3000000
- 23073 multiletter control sequences out of 15000+600000
+ 23115 multiletter control sequences out of 15000+600000
  414018 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,8n,62p,892b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,8n,62p,973b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Jerzy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on MAD_Projekt1a.pdf (19 pages, 4690173 bytes).
+Output written on MAD_Projekt1a.pdf (19 pages, 4987113 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
+ 521 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,9 +1,15 @@
 # Fdb version 3
-["pdflatex"] 1651343125 "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651343128
+["pdflatex"] 1651344626 "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651344628
   "../images/methods/../boxplots/boxplot_noscale_fig.jpeg" 1651310026 93084 e405c2d5b27bf09436d2e29fd2d4b56d ""
   "../images/methods/../boxplots/boxplot_scale_fig.jpeg" 1651310026 126442 4197a64940e8453711a005a62a519979 ""
+  "../images/methods/../histograms/acceleration_hist.jpeg" 1651245847 45246 1ba12dc6e9fe26028b252210bf60d03f ""
+  "../images/methods/../histograms/cylinders_hist.jpeg" 1651245847 41912 184acfb43b7343d7b6c2687a51517ad2 ""
+  "../images/methods/../histograms/displacement_hist.jpeg" 1651245847 53906 dfa32db05d0689257eb6eb3635f6dff8 ""
+  "../images/methods/../histograms/horsepower_hist.jpeg" 1651245847 52061 ea2f7fc1aeaae37e6b23b666f2f82fe7 ""
+  "../images/methods/../histograms/model_hist.jpeg" 1651245847 56372 86c9dec0a53743923bb664eb1e1daa77 ""
   "../images/methods/../histograms/mpg_hist.jpeg" 1651245847 43204 16d0db9b7fb000a918e7aca746b3fce0 ""
   "../images/methods/../histograms/origin_hist.jpeg" 1651245847 45241 7502332fa78fab0ccc3aecb7c043419c ""
+  "../images/methods/../histograms/weight_hist.jpeg" 1651245847 47037 60c5debac64d04a1fbb7988293a35506 ""
   "../images/methods/average_fig.jpeg" 1651310026 596775 0ec805f18756dc26bd1a960b437427c6 ""
   "../images/methods/complete_fig.jpeg" 1651310026 553520 678c89741578d6c415cf27460665403c ""
   "../images/methods/elbow_fig.jpeg" 1651310026 104961 5ac00b8e1a697c6bab8649bdd1fa73a0 ""
@@ -86,9 +92,9 @@
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1623004942 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636713860 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "MAD_Projekt1a.aux" 1651343128 4289 5fcd9bb750c9a5883e30214388172aa2 "pdflatex"
-  "MAD_Projekt1a.tex" 1651343124 23204 d157a5423ad637294f0956e6d22e5605 ""
-  "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" 1651343124 23204 d157a5423ad637294f0956e6d22e5605 ""
+  "MAD_Projekt1a.aux" 1651344628 4280 945562142c2f524509b14309981f6182 "pdflatex"
+  "MAD_Projekt1a.tex" 1651344624 23166 c398588309310100e30f9e4a0887684f ""
+  "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" 1651344624 23166 c398588309310100e30f9e4a0887684f ""
   (generated)
   "MAD_Projekt1a.aux"
   "MAD_Projekt1a.log"
