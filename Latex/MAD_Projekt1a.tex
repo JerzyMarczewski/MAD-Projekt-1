@@ -94,7 +94,7 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
     \begin{itemize}
         \item ${X_1, X_2, X_3, X_4, X_6}$ to stymulanty
         \item ${X_5}$ to destymulanta
-        \item ${X_7, X_8}$ to neutralna
+        \item ${X_7, X_8}$ to neutralne
     \end{itemize}
     
     
@@ -270,8 +270,8 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
         które znajdują się w obu zbiorach kwalifikują się zarówno do zbioru zielonego i czerwonego, czyli ich parametry są do siebie zbliżone.
         \newline\newline
         W zbiorze niebieskim są tylko samochody pochodzenia amerykańskiego, a w zbiorach zielonym i czerwonym są samochody pochodzenia 
-        europejskiego i japońskiego. Samochody amerykańskie charakteryzują duża pojemność silnika, wysoka objętość skokowa silnika oraz duża 
-        waga. 
+        europejskiego i japońskiego. Samochody amerykańskie charakteryzuje duża pojemność silnika, wysoka objętość skokowa silnika, duża 
+        waga oraz niskie mpg.
 
         
     \subsection{Metoda Warda}
@@ -320,6 +320,12 @@ Okres 1970-1982 to ciekawy i ważny czas w motoryzacji. Na rynku występowała w
             Problem Plateau polega na wykazaniu istnienia minimalnej powierzchni przy danej granicy.
 
 \section{Podsumowanie (ocena realizacji celu, odniesienie do pozycji z przeglądu literatury)}
+Po przeprowadzeniu szacowania optymalnej liczby skupisk metodamą łokciową i silhouette wnioskujemy, że optymalnym wynikiem są trzy skupiska.
+Wykorzystaliśmy metodę k-średnich dla trzech centroidów i metodę Warda dla trzech klastrów. Wynikiem jest podział samochodów na trzy klastry.
+Metoda Warda przestawia bardziej szczegółowo podobieństwo między poszczególnymi samochodami. Ponadto metoda Warda dzieli wynik na trzy rozłączne
+względem siebie klastry, a w metodie k-średnich występują elementy należące do dwóch klastrów. W obu metodach klaster niebieski składa się 
+wyłącznie z samochodów pochodzenia amerykańskiego. Można to uznać za sukces, ponieważ samochody pochodzenia amerykańskiego słyną z wyjątkowej
+charakterystyki takiej jak: duża liczba cylidrów, niskie mpg, wysoka wartość hp.
 
 
 \section{Bibliografia}

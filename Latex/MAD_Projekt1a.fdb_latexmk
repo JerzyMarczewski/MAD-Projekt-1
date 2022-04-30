@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651323785 "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651323788
+["pdflatex"] 1651325800 "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" "MAD_Projekt1a.pdf" "MAD_Projekt1a" 1651325803
   "../images/methods/../boxplots/boxplot_noscale_fig.jpeg" 1651310026 93084 e405c2d5b27bf09436d2e29fd2d4b56d ""
   "../images/methods/../boxplots/boxplot_scale_fig.jpeg" 1651310026 126442 4197a64940e8453711a005a62a519979 ""
   "../images/methods/../histograms/mpg_hist.jpeg" 1651245847 43204 16d0db9b7fb000a918e7aca746b3fce0 ""
@@ -14,7 +14,7 @@
   "../images/methods/som_codes_fig.jpeg" 1651310026 313799 9f47321c36afa9245637deb4f89e874f ""
   "../images/methods/som_counts_fig.jpeg" 1651310026 284523 a505edc48d85a429847e5a8d0c19cdc8 ""
   "../images/methods/som_neighbour_dist_fig.jpeg" 1651310026 296501 ce9c87ec11aa60d234207313ac2ead22 ""
-  "../images/methods/ward_fig.jpeg" 1651310026 489939 e98996f18c944769639019162bfdd96b ""
+  "../images/methods/ward_fig.jpeg" 1651324938 492161 bc601c95601587ca9f3777649234491f ""
   "C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1651321437 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1000.pk" 1647087847 25420 c8aec155b056b85e182e793ec0db9532 ""
   "C:/Users/Jerzy/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1647087845 31952 d94cfe0abd32a9fca08b728afbd46bad ""
@@ -86,9 +86,9 @@
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/listings/lstmisc.sty" 1623004942 77022 ee25ce086f4a79d8cf73bac6f94c02a5 ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636713860 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/Jerzy/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "MAD_Projekt1a.aux" 1651323788 4287 606529517fb4926832a225726a6c020a "pdflatex"
-  "MAD_Projekt1a.tex" 1651323784 20549 a0e2449fbc6f548284a98e9f5892802d ""
-  "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" 1651323784 20549 a0e2449fbc6f548284a98e9f5892802d ""
+  "MAD_Projekt1a.aux" 1651325802 4287 606529517fb4926832a225726a6c020a "pdflatex"
+  "MAD_Projekt1a.tex" 1651325799 21401 025bf08fcad6a27945b5806b65757105 ""
+  "c:/Users/Jerzy/Documents/nauka/MAD-Projekt-1/Latex/MAD_Projekt1a.tex" 1651325799 21401 025bf08fcad6a27945b5806b65757105 ""
   (generated)
   "MAD_Projekt1a.aux"
   "MAD_Projekt1a.log"
